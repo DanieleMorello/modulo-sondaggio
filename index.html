@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Form</title>
+</head>
+<body>
+<h1 id="title">Form</h1>
+<p id="description">Fill in the form</p>
+<form id="survey-form">
+  <label for="name" id="name-label"> Name:</label>
+  <input id="name" type="text"  placeholder=" Name" required />
+  <label for="email" id="email-label"> Email:</label>
+  <input id="email" type="email"  placeholder=" Email" required />
+  <label for="number" id="number-label"> Number: </label>
+  <input id="number" type="number" min="0" max="99"  placeholder="Number" />
+  <label for="sex" id="radio-label"> Sex: </label>
+  <input type="radio" name="sex" value=" Male"> Male
+  <input type="radio" name="sex" value=" Female"> Female
+<select id="dropdown">
+  <option name="option1" value="option1"></option>
+  <option name="option2" value="option2"></option>
+</select>
+<textarea></textarea>
+ <input id="terms" type="checkbox" name="accept" value="accept"> <label for="terms"> Accept the terms</label>
+ <input id="noterms" type="checkbox" name="reject" value="reject"> <label for="noterms"> Reject the terms</label>
+<input type="submit" id="submit">
+</form>
+</body>
+</html>
